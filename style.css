@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+    z-index: 1000;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.menu li a:hover {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.content section {
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#home { background-color: #e7d2cc; }
+#about { background-color: #b9b7bd; }
+#services { background-color: #868b8e; }
+#contact { background-color: #eeede7; }
